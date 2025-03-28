@@ -1,0 +1,28 @@
+#b1{
+    margin-left: 2%;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 10px;
+}
+#b2{
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
+    font-size: 2em;
+}
+#d1{
+    margin-top: 1%;
+    height: 200px;
+    width:200px;
+    background-color: brown;
+    width: 30rem;
+}
+
+#d2{
+  height:auto;
+  width:30%;
+  background-color: aqua;
+  margin-left: 32%;
+  height: 50vh;    
+}

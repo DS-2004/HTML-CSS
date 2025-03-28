@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#navbar{
+    background-color: #0e0e0e;
+    height: 60px;
+    padding:20px;
+}
+button{
+    background-color: orange;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    color: azure;
+}
+.con{
+height: 100px;
+width: 200px;
+border: 2px solid black;
+border-color: hsl(53, 22%, 8%);
+display: inline-block;
+}
+#e{
+    color:white;
+    background-color: #0e0e0e;
+    text-align: center;
+    
+}
+#content{
+    height: 590px;
+    color: #0e0e0e;
+}

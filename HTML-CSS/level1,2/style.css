@@ -1,0 +1,64 @@
+#a{
+    color:aliceblue;
+    text-transform: capitalize;     /*used to set the first letter to capital of div */
+     height: 100px;                           /*used to set the height of div */
+    background-color: blue;
+    width: 200px;                            /*used to set the width of div */
+    border-width: 2px;     /* if we wnt to use all three border property we can use */
+    border-style: dashed;        border: 10px solid blueviolet;
+    border-color: aqua; 
+    text-align: center;
+     padding: 20px;         /*  it is area between content and border */
+    margin: 10px;            /* it is area between to content  */
+    margin-left: 180px;
+    margin-right: 120px;
+    padding-left: 20px;
+    padding-right: 30px;                  
+}
+
+
+
+h1{
+    height: 50px;
+    width: 140px;
+    background-color: aquamarine;
+
+}
+
+#q{
+    height: 100px;
+    width: 200px; 
+    color: rgb(150, 2, 133);
+    background-color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    /* font-weight: 900; */
+    /* border-radius: 50%; */
+    border: 2px dashed rgb(43, 23, 255);
+    text-decoration: none;
+    text-align: center;
+     padding:20px;          /*   for padding: 1px 2px 3px 4px; it means top right bottom left */
+   
+    margin: 50px ;
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: bold;
+    color:aliceblue;
+    background-color: blueviolet;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+}

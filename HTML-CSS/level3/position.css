@@ -1,0 +1,63 @@
+div{
+   border: 2px solid black;
+   background-color: blueviolet; 
+   display: inline-block;
+   
+}
+div:hover{
+    background-color: brown;
+    font-size: 20px;
+    /* transform: scale(2,1); */
+    /* transform: rotate(360deg); */
+    transform: translateY(400px);
+}
+
+#d1{
+    height: 100px;
+    width: 100px;
+  position: static;
+  background-image: url(image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#d2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-image: url(image.png);
+    background-size: cover;
+    top:50px;
+}
+
+#d3{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top:15px;
+   left:5px;
+   background-image: url(image.png);
+   background-size: cover;
+}
+
+#d4{
+    height: 100px;
+    width: 100px;
+    position:fixed;
+    right:90px;
+    background-image: url(image.png);
+    background-size: cover;
+    z-index: 10px;
+}
+
+#p{
+    font-weight: bold;
+height: 100px;
+width: 100px;
+background-image: url("hello.png");
+background-size: cover;
+position: absolute;
+position: fixed;
+right:0px;
+top:100px;
+}

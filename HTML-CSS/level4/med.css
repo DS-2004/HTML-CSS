@@ -1,0 +1,28 @@
+div{
+    background-color: dodgerblue;
+    height: 200px;
+    width: 200px;
+}
+ @media (max-width : 300px) {
+    div{
+    background-color: darkblue;
+} 
+}
+
+@media (min-width : 300px) and (max-width : 400px) {
+    div{
+    background-color: rgb(95, 0, 139);
+}
+}
+
+@media (min-width : 400px) and (max-width : 600px) {
+    div{
+    background-color: rgb(30, 222, 43);
+}
+}
+
+@media (min-width : 600px) {
+    div{
+    background-color: rgb(139, 0, 118);
+}
+}
